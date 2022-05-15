@@ -19,9 +19,11 @@
  * Établissement d’une session
  * Gestion d’une session
 
+Source n°1 et n°2 : [3CX-VoIp-SIP](https://www.3cx.fr/voip-sip/sip/), [Wikipédia-SIP](https://fr.wikipedia.org/wiki/Session_Initiation_Protocol), définition SIP.
+
 ### 1.2 <ins>Qu’est-ce que le protocole H.323</ins> :
 
-   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Comme le SIP, le H.323 est un protocole conçu pour initier, gérer et terminer des sessions médias.
+   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Comme le SIP, le H.323 est un protocole conçu pour initier, gérer et terminer des sessions médias. Cependant celui-ci est standarisé par L'IEEE*.
    
    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Existant depuis 1996, Il est considéré comme assez ancien. C’est un protocole binaire et se fait remplacer par le SIP.
    
@@ -32,6 +34,10 @@
 * La signalisation
 * La négociation de codec
 * Le transport de l’information
+
+Source n°4, n°5 et n°7  : [Wikipédia-H.323](https://fr.wikipedia.org/wiki/H.323#:~:text=323%20regroupe%20un%20ensemble%20de,est%20publi%C3%A9e%20en%20novembre%201996.), [Techno-Science.net](https://www.techno-science.net/definition/1369.html), [IEEE-H.323](https://ieeexplore.ieee.org/document/874981), définition H.323.
+
+## 1.3 Schéma illustrant une communication VoIP (session + multimédia)
 
 ## 2. Comparaison entre ces deux protocoles
 ### 2.1 <ins>Codage des messages</ins> :
@@ -77,6 +83,7 @@
    
    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;H323 présente d’autres avantages tels que la fiabilité, la traversée NAT, l’adressage flexible et l’équilibrage de charge sur SIP.
 
+Source n° 1 à n°5 : [3CX-VoIp-SIP](https://www.3cx.fr/voip-sip/sip/), [Wikipédia-SIP](https://fr.wikipedia.org/wiki/Session_Initiation_Protocol), [Goffinet François-SIP](https://sip.goffinet.org/sip/architecture/), [Wikipédia-H.323](https://fr.wikipedia.org/wiki/H.323#:~:text=323%20regroupe%20un%20ensemble%20de,est%20publi%C3%A9e%20en%20novembre%201996.), [Techno-Science.net](https://www.techno-science.net/definition/1369.html), utilisés afin de comparer ces deux protocoles.
 
 ## 3. Conclusion
    
@@ -96,42 +103,38 @@
 | :--- | :--- |
 | *VoIP | « Voice Over Internet Protocol », permet la transmission de la voix par internet. |
 | *IETF | Ils produisent la plupart des nouveaux standards d’Internet. |
+| *IEEE | Institut des ingénieurs électriciens et électroniciens |
 | *RTP | est un protocole de communication informatique permettant le transport de données |
 | RTCP | il va de pair avec le RTP, il transmet les paquets de contrôle au participant d’un appel. C’est-à-dire de donner un feedback sur la qualité du service fourni par le RTP. |
 
+Source n°6 : [3CX-RTCP](https://www.3cx.fr/voip-sip/rtcp/#:~:text=Le%20RTCP%20signifie%20Real%20Time,aux%20participants%20d'un%20appel), définition RTCP.
 
 ## Bibliographie
 
-* [3CX-VoIp-SIP](https://www.3cx.fr/voip-sip/sip/), Equipe 3CX, Création du site en 2005 mais il est régulièrement mis à jour, consulté le (8/05/2022)
+1) [3CX-VoIp-SIP](https://www.3cx.fr/voip-sip/sip/), Equipe 3CX, Création du site en 2005 mais il est régulièrement mis à jour, consulté le (8/05/2022)
    - Résumé : Définition du protole SIP et de la VoIP.
    - Avis sur la ressource : 3CX est une plateforme de communication complète. Cette entreprise mets à jour régulièrement ces informations disponible en ligne. De plus, ils organisent régulièrement des webinaires, les liens sont disponilbes sur leur site web.
    
-
-* [Wikipédia-SIP](https://fr.wikipedia.org/wiki/Session_Initiation_Protocol), Wikipédia, dernière modification a été faites le 30 mars 2022, consulté le (8/05/2022)
+2) [Wikipédia-SIP](https://fr.wikipedia.org/wiki/Session_Initiation_Protocol), Wikipédia, dernière modification a été faites le 30 mars 2022, consulté le (8/05/2022)
    - Résumé : Article résumant les informations éssentiel du protocole SIP.
    - Avis sur la ressource : Encyclopédie libre régulièrement mise à jour
 
-
-* [Goffinet François-SIP](https://sip.goffinet.org/sip/architecture/), François Goffinet, 2021, consulté le (8/05/2022)
+3) [Goffinet François-SIP](https://sip.goffinet.org/sip/architecture/), François Goffinet, 2021, consulté le (8/05/2022)
    - Résumé : Explication détaillé de l'architecture SIP
    - Avis sur la ressource : Rédigé par un formateur IT, écrivains, professionel avec de l'expérience dans le métiers depuis de nombreuses années [LinkedIn](https://www.linkedin.com/in/fegoffinet/) 
 
-
-
-* [Wikipédia-H.323](https://fr.wikipedia.org/wiki/H.323#:~:text=323%20regroupe%20un%20ensemble%20de,est%20publi%C3%A9e%20en%20novembre%201996.), WWikipédia, dernière modification a été faites le 30 mars 2022, consulté le (8/05/2022)
+4) [Wikipédia-H.323](https://fr.wikipedia.org/wiki/H.323#:~:text=323%20regroupe%20un%20ensemble%20de,est%20publi%C3%A9e%20en%20novembre%201996.), WWikipédia, dernière modification a été faites le 30 mars 2022, consulté le (8/05/2022)
    - Résumé : Article résumant en large les informations du protocole H.323.
    - Avis sur la ressource : Encyclopédie libre régulièrement mise à jour
 
-
-
-* [Techno-Science.net](https://www.techno-science.net/definition/1369.html), Tecnho-Science/Wikipédia, mis en ligne en 2004, consulté le (8/05/2022)
+5) [Techno-Science.net](https://www.techno-science.net/definition/1369.html), Tecnho-Science/Wikipédia, mis en ligne en 2004, consulté le (8/05/2022)
    - Résumé : Ce site explique et définit l'utilisation du protocole H.323 dans ses débuts. 
    - Avis sur la ressource : c'est un site d'information sur l'actualité des sciences et des technologies édité par l'association Techno-Science.net
 
-
-
-* [3CX-RTCP](https://www.3cx.fr/voip-sip/rtcp/#:~:text=Le%20RTCP%20signifie%20Real%20Time,aux%20participants%20d'un%20appel),  Equipe 3CX, Création du site en 2005 mais il est régulièrement mis à jour, consulté le (8/05/2022)
+6) [3CX-RTCP](https://www.3cx.fr/voip-sip/rtcp/#:~:text=Le%20RTCP%20signifie%20Real%20Time,aux%20participants%20d'un%20appel),  Equipe 3CX, Création du site en 2005 mais il est régulièrement mis à jour, consulté le (8/05/2022)
    - Résumé : Définition du protole RTCP.
    - Avis sur la ressource : 3CX est une plateforme de communication complète. Cette entreprise mets à jour régulièrement ces informations disponible en ligne. De plus, ils organisent régulièrement des webinaires, les liens sont disponilbes sur leur site web.
    
-
+7) [IEEE-H.323](https://ieeexplore.ieee.org/document/874981), Equipe IEEE, Date de publication en Octobre 2000 (Le H.323 étant assez ancien).
+   - Résumé : Définition du H.323 par des experts de l'équipe IEEE
+   - Avis sur la ressource : L'IEEE est une oganisation à but non lucratif, c'est une très grande organisation professionnelle technique au monde dédiée à l'avancement de la technologie.
