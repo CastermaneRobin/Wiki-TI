@@ -38,12 +38,12 @@
 	
 <ins>SIP</ins> [^1]
 
-![SIP](https://github.com/CastermaneRobin/Wiki-TI/tree/main/R%C3%A9seaux/SchemaSIP.png)
+![SIP](https://github.com/CastermaneRobin/Wiki-TI/blob/Comparatif-Sip-H323/R%C3%A9seaux/SchemaSIP.png)
 	
 	
 <ins>H.323</ins> [^8]
 	
-![H.323](https://github.com/CastermaneRobin/Wiki-TI/tree/main/R%C3%A9seaux/SchemaH323.png)
+![H.323](https://github.com/CastermaneRobin/Wiki-TI/blob/Comparatif-Sip-H323/R%C3%A9seaux/SchemaH323.png)
 
 Documentation du schéma car ce dernier est plus complexe qu'une communication SIP :
 	
