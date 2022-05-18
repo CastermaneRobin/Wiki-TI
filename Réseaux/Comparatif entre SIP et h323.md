@@ -4,9 +4,9 @@
 ## 1. Introduction
 ### 1.1 <ins>Qu’est-ce que le protocole SIP</ins> [^1] [^2] :
 
-   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;La « Session Initiation Protocol » (SIP) est un protocole TCP/IP de couche application normalisée et standardisé par l’IETF*. Il s’agit d’un protocole de communication standard couramment utilisé dans les télécommunications multimédias, mais est le plus fréquent dans la téléphonie par internet (la VoIP*). 
+   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;La « Session Initiation Protocol » (SIP) est un protocole TCP/IP de le couche applicative normalisée et standardisé par l’IETF*. Il s’agit d’un protocole de communication standard couramment utilisé dans les télécommunications multimédias. Ce dernier est le plus répandu dans la téléphonie par internet (la VoIP*). 
 
-   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Le protocole SIP permet d’établir une « sessions » entre deux ou plus de participants, de modifier cette session et finalement de mettre fin à cette session. 
+   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Le protocole SIP permet d’établir une « session » entre deux ou plus de participants, de modifier cette session et finalement de mettre fin à cette session. 
 
    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Par défaut, ce protocole est supporté sur le port 5060 par TCP ou UDP et pour sa version sécurisé, SIP-TLS, sur le port 5061 par défaut. Il fonctionne aussi bien avec l’IPv4 qu’avec l’IPv6.
 
@@ -71,11 +71,11 @@ Documentation du schéma car ce dernier est plus complexe qu'une communication S
 
 ### 2.2 <ins>En terme de temps</ins> :
 
-   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Ces deux protocoles de communication, SIP et H323, ont été introduits à peu près au même moment. L’internet Engineering Task Force (IETF) a développé le protocole SIP basé sur le H323. Comparé au H323, SIP est plus simple, plus évolutif et plus étroitement lié aux applications Internet existantes.
+   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Le protocole H323 a été introduit quelques années avant le SIP. L’internet Engineering Task Force (IETF) a développé le protocole SIP basé sur le H323. Comparé au H323, SIP est plus simple, plus évolutif et plus étroitement lié aux applications Internet existantes.
    
 ### 2.3 <ins>Utilisation</ins> :
 
-   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;SIP et H323 sont des protocoles de communications utilisés pour les appels multimédia et la téléconférence sur des réseaux basés sur le protocole Internet. 
+   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;SIP et H323 sont des protocoles de communication utilisés pour les appels multimédia et la téléconférence sur des réseaux basés sur le protocole Internet. 
    
    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;D’autres communications multimédias sont prises en charge par SIP telles que la messagerie instantanée, les jeux en ligne et même le partage de fichiers. 
 
@@ -85,7 +85,7 @@ Documentation du schéma car ce dernier est plus complexe qu'une communication S
 
 | <ins>Comparatif</ins> | <ins>SIP</ins> | <ins>H323</ins> |
 | :--- | :--- | :--- |
-| Nombre d'échange pour établir la connexion | 1,5 aller-retour | 6 à 7 aller-retour |
+| Nombre d'échange pour établir la connexion | 1,5 aller-retour (voir schéma ci-dessus)| 6 à 7 aller-retour (voir schéma ci-dessus)|
 | Maintenance du code protocolaire | Simple par sa nature textuelle à l'exemple de Http | Complexe et nécessitant un compilateur |
 | Evolution du protocole | Protocole ouvert à des nouvelles fonctions | Ajout d'extensions propriétaires sans concertation entre vendeurs |
 | Fonction de conférence | Distribuée | Centralisée par l'unité MC |
